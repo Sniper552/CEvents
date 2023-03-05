@@ -1,0 +1,197 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:CEvents.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1200" d:DesignHeight="750"
+		xmlns:localM="clr-namespace:CEvents.Models"
+		Width="1450" Height="750"
+        x:Class="CEvents.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="CEvents">
+
+	<Design.DataContext>
+		<vm:MainWindowViewModel/>
+	</Design.DataContext>
+	<Window.Resources>
+		<vm:BitmapAssetValueConverter x:Key="variableImage"/>
+	</Window.Resources>
+
+	<Window.DataTemplates>
+		<DataTemplate DataType="{x:Type localM:EventC}">
+			<Border BorderBrush="Yellow" BorderThickness="1">
+				<Grid ColumnDefinitions="400" RowDefinitions="300, 220">
+					<Image Grid.Row="0" Height="300" Width="300" Source="{Binding Image, Converter={StaticResource variableImage}}"/>
+					<StackPanel Grid.Row="1" HorizontalAlignment="Center">
+						<TextBlock Text="{Binding Header}" FontWeight="Bold" FontSize="25"/>
+						<Grid RowDefinitions="Auto" ColumnDefinitions="Auto, Auto"> 
+							<TextBlock Text="Дата: " Grid.Column="0" FontWeight="Bold" FontSize="20"/>
+							<TextBlock Text="{Binding Date}" Grid.Column="1" FontWeight="Bold" FontSize="20"/>
+						</Grid>
+						<Grid RowDefinitions="Auto" ColumnDefinitions="Auto, Auto">
+							<TextBlock Text="Цена: " Grid.Column="0" FontWeight="Bold" FontSize="20"/>
+							<TextBlock Text="{Binding Price}" Grid.Column="1" FontWeight="Bold" FontSize="20"/>
+						</Grid>
+					</StackPanel>
+				</Grid>
+			</Border>
+		</DataTemplate>
+	</Window.DataTemplates>
+
+	<TabControl TabStripPlacement="Top">
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/1.png" Grid.Column="0"/>
+					<TextBlock Text="Для детей" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding Vkladka1}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/2.png" Grid.Column="0"/>
+					<TextBlock Text="Спорт" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding Vkladka2}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/3.png" Grid.Column="0"/>
+					<TextBlock Text="Культура" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding Vkladka3}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/4.png" Grid.Column="0"/>
+					<TextBlock Text="Экскурсии" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding Vkladka4}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel />
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/5.png" Grid.Column="0"/>
+					<TextBlock Text="Образ жизни" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding Vkladka5}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/6.png" Grid.Column="0"/>
+					<TextBlock Text="Вечеринка" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding Vkladka6}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/7.png" Grid.Column="0"/>
+					<TextBlock Text="Образование" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding Vkladka7}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/8.png" Grid.Column="0"/>
+					<TextBlock Text="Онлайн" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding Vkladka8}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/9.png" Grid.Column="0"/>
+					<TextBlock Text="Шоу" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding Vkladka9}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
+
+		</TabItem>
+	</TabControl>
+</Window>

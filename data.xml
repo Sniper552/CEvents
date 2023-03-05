@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEventC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EventC>
+    <Header>Фильм "Pirat Cave"</Header>
+    <Image>Assets/picture/pirat.jpg</Image>
+    <Date>02/03/2023 10:30</Date>
+    <Category>
+      <Children>true</Children>
+      <Sport>false</Sport>
+      <Cultur>false</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>true</Show>
+    </Category>
+    <Price>120</Price>
+  </EventC>
+  <EventC>
+    <Header>Фильм "Кошки-Собаки"</Header>
+    <Image>Assets/picture/cats-dogs.jpeg</Image>
+    <Date>03/03/2023 11:30</Date>
+    <Category>
+      <Children>true</Children>
+      <Sport>false</Sport>
+      <Cultur>false</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>10</Price>
+  </EventC>
+  <EventC>
+    <Header>Мультик "Паравозик Чаггинтон"</Header>
+    <Image>Assets/picture/paravoz.jpg</Image>
+    <Date>03/03/2023 11:30</Date>
+    <Category>
+      <Children>true</Children>
+      <Sport>false</Sport>
+      <Cultur>false</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>0</Price>
+  </EventC>
+  <EventC>
+    <Header>Соревнования по бодибилдингу</Header>
+    <Image>Assets/picture/body.webp</Image>
+    <Date>03/03/2023 10:00</Date>
+    <Category>
+      <Children>false</Children>
+      <Sport>true</Sport>
+      <Cultur>false</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>30</Price>
+  </EventC>
+  <EventC>
+    <Header>Соревнования по триатлону</Header>
+    <Image>Assets/picture/triatlon.png</Image>
+    <Date>04/03/2023 11:30</Date>
+    <Category>
+      <Children>false</Children>
+      <Sport>true</Sport>
+      <Cultur>false</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>20</Price>
+  </EventC>
+  <EventC>
+    <Header>Соревнования по футболу</Header>
+    <Image>Assets/picture/fut.png</Image>
+    <Date>04/03/2023 13:30</Date>
+    <Category>
+      <Children>false</Children>
+      <Sport>true</Sport>
+      <Cultur>false</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>10</Price>
+  </EventC>
+  <EventC>
+    <Header>Световое шоу</Header>
+    <Image>Assets/picture/svetovoe-shou.jpg</Image>
+    <Date>07/03/2023 20:40</Date>
+    <Category>
+      <Children>false</Children>
+      <Sport>false</Sport>
+      <Cultur>false</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>false</Lifestyle>
+      <Party>true</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>true</Show>
+    </Category>
+    <Price>900</Price>
+  </EventC>
+  <EventC>
+    <Header>Стим-панк цирк</Header>
+    <Image>Assets/picture/stimpank-cirk.jpg</Image>
+    <Date>09/03/2023 11:10</Date>
+    <Category>
+      <Children>false</Children>
+      <Sport>false</Sport>
+      <Cultur>false</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>true</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>true</Show>
+    </Category>
+    <Price>450</Price>
+  </EventC>
+  <EventC>
+    <Header>Концерт для виолочели</Header>
+    <Image>Assets/picture/viol.png</Image>
+    <Date>06/03/2023 14:00</Date>
+    <Category>
+      <Children>false</Children>
+      <Sport>false</Sport>
+      <Cultur>true</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>true</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>50</Price>
+  </EventC>
+  <EventC>
+    <Header>Чтение русской литературы</Header>
+    <Image>Assets/picture/litr.png</Image>
+    <Date>12/03/2023 10:35</Date>
+    <Category>
+      <Children>false</Children>
+      <Sport>false</Sport>
+      <Cultur>true</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>true</Lifestyle>
+      <Party>false</Party>
+      <Education>true</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>0</Price>
+  </EventC>
+  <EventC>
+    <Header>Собрание архитекторов</Header>
+    <Image>Assets/picture/arci.png</Image>
+    <Date>22/03/2023 16:50</Date>
+    <Category>
+      <Children>false</Children>
+      <Sport>false</Sport>
+      <Cultur>true</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>true</Lifestyle>
+      <Party>false</Party>
+      <Education>true</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>0</Price>
+  </EventC>
+  <EventC>
+    <Header>Экскурсии на "высотках"</Header>
+    <Image>Assets/picture/eks.png</Image>
+    <Date>14/03/2023 12:00</Date>
+    <Category>
+      <Children>false</Children>
+      <Sport>false</Sport>
+      <Cultur>false</Cultur>
+      <Excursion>true</Excursion>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>150</Price>
+  </EventC>
+  <EventC>
+    <Header>Костюмированные вечеринки</Header>
+    <Image>Assets/picture/kost.png</Image>
+    <Date>16/04/2023 18:00</Date>
+    <Category>
+      <Children>false</Children>
+      <Sport>false</Sport>
+      <Cultur>false</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>false</Lifestyle>
+      <Party>true</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>1000</Price>
+  </EventC>
+  <EventC>
+    <Header>Деловая встреча</Header>
+    <Image>Assets/picture/online.png</Image>
+    <Date>19/05/2023 11:11</Date>
+    <Category>
+      <Children>false</Children>
+      <Sport>false</Sport>
+      <Cultur>false</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>true</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>0</Price>
+  </EventC>
+  <EventC>
+    <Header>Мероприятие сотрудников</Header>
+    <Image>Assets/picture/onl.png</Image>
+    <Date>16/05/2023 10:50</Date>
+    <Category>
+      <Children>false</Children>
+      <Sport>false</Sport>
+      <Cultur>false</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>true</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>1000</Price>
+  </EventC>
+  <EventC>
+    <Header>Онлайн-игра "Домашний Квест"</Header>
+    <Image>Assets/picture/onla.png</Image>
+    <Date>16/04/2023 18:00</Date>
+    <Category>
+      <Children>false</Children>
+      <Sport>false</Sport>
+      <Cultur>false</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>true</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>300</Price>
+  </EventC>
+  <EventC>
+    <Header>Собрание программистов</Header>
+    <Image>Assets/picture/pro.jpg</Image>
+    <Date>21/04/2023 13:00</Date>
+    <Category>
+      <Children>false</Children>
+      <Sport>false</Sport>
+      <Cultur>false</Cultur>
+      <Excursion>false</Excursion>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>true</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>200</Price>
+  </EventC>
+  <EventC>
+    <Header>Экскурсии по музею</Header>
+    <Image>Assets/picture/eks.jpg</Image>
+    <Date>26/03/2023 15:00</Date>
+    <Category>
+      <Children>false</Children>
+      <Sport>false</Sport>
+      <Cultur>false</Cultur>
+      <Excursion>true</Excursion>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>100</Price>
+  </EventC>
+</ArrayOfEventC>
